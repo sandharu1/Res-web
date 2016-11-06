@@ -9,9 +9,9 @@ $db_host 		= 'localhost';
 
 //paypal settings
 $PayPalMode 			= 'sandbox'; // sandbox or live
-$PayPalApiUsername 		= 'sandharu1-testpaypal_api1.gmail.com'; //PayPal API Username
-$PayPalApiPassword 		= 'XE92APXERH5AEN8H'; //Paypal API password
-$PayPalApiSignature 	= 'AFcWxV21C7fd0v3bYYYRCpSSRl31AgqRmslEIhQ9waoh1qIQcHjZmWtU'; //Paypal API Signature
+$PayPalApiUsername 		= '*****************'; //PayPal API Username
+$PayPalApiPassword 		= '*************'; //Paypal API password
+$PayPalApiSignature 	= '************************************************'; //Paypal API Signature
 $PayPalCurrencyCode 	= 'USD'; //Paypal Currency Code
 $PayPalReturnURL 		= 'http://artsy.net16.net/paypal-express-checkout/'; //Point to paypal-express-checkout page
 $PayPalCancelURL 		= 'http://artsy.net16.net/paypal-express-checkout/cancel_url.html'; //Cancel URL if user clicks cancel
