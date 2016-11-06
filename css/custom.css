@@ -1,0 +1,267 @@
+html,
+body {
+    height: 100%;
+}
+
+ /*footer styles*/
+.footer-bottom {
+	/*background: #E3E3E3;*/
+	background: #ff4f00;
+  border-color: #c1a516;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+	color: white;
+}
+.payments {
+	font-size: 1.5em;
+	color: white;	
+}
+/*custom navimenu sub dropdown*/
+.navibar-brand{
+  height: 45px;
+  margin-top:-10px;
+  width: 270px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+}
+
+/*custom navi colour*/
+
+.navbar-default {
+  background-color: #ff4f00;
+  border-color: #c1a516;
+}
+.navbar-default .navbar-brand {
+  color: #e4e7b9;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #e4e7b9;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #e4e7b9;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #c1a516;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #c1a516;
+}
+.navbar-default .navbar-toggle {
+  border-color: #c1a516;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #c1a516;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e4e7b9;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e4e7b9;
+}
+.navbar-default .navbar-link {
+  color: #e4e7b9;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #e4e7b9;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #c1a516;
+  }
+}
+/*Custom Carousel*/
+.carousel,
+.item,
+.active {
+    height: 100%;
+
+}
+.carousel-caption{
+  margin-bottom: 20px;
+}
+.carousel-indicators{
+  margin-bottom: 30px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*end Custom Carousel*/
+
+/*bakary products tiles styles*/
+.style-row{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+ /*End bakary products tiles styles*/
+
+/*Start Outdoor catering CSS*/
+/*Thumbnail corousel CSS codes*/
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+/*End Outdoor catering CSS*/
+
+/*======Admin login system========*/
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  margin:0;
+  padding:0;
+}
+#login-form {
+  margin:5% auto;
+  max-width:500px;
+}
+/* home page */
+#wrapper{
+  padding-top:50px;
+}
+
+
+.sd-form{
+  margin:5% auto;
+  max-width: 500px;
+}
+
+/*
+.download-form, .subscription-form {
+  margin:10% auto;
+  max-width: 500px;
+}
+*/
+
+.subscription-form {
+  display: none;
+}
+
+.col-lg-6 {
+  margin:10% auto;
+}
+
+.result{
+  //display: none;
+}
+
+/*===========End Admin login system==========*/
+
+/*===add form css=======*/
+.collapse.in { min-height: 500px;border: 1px solid blue; }
+/*==== end add form css=====*/
+
+/*=======paypal shopping cart intregration=======*/
+.button{
+  min-width: 100px;
+  display: inline-block;
+  cursor: pointer;
+  }
+  .cart-total-text a{
+  float:right;
+}
+
+.cart-view-table-front{
+  font-size: 0.7em;
+  position: fixed;
+  right: 10px;
+  max-width: 350px;
+  /*font-family: Arial;*/
+  z-index: 1;
+  margin-top: -130px;
+}
+.cart-view-table-front h3{
+  text-align: center;
+  padding: 0;
+  margin: 0px 0px 6px 0px;
+}
+.cart-view-table-front, .cart-view-table-back {
+  max-width: 700px;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px 10px 0px 10px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.12);
+  border: 1px solid #E4E4E4;
+}
+.cart-view-table-front table th, .cart-view-table-back table th{
+  text-align: left;
+}
+.cart-view-table-front table thead, .cart-view-table-back table thead{
+  background-color: #9CCDFD;
+}
+.cart-view-table-front table tbody tr.even, .cart-view-table-back table tbody tr.even{
+  background-color: #F7F7F7;
+}
+.cart-view-table-front table tbody tr.odd, .cart-view-table-back table tbody tr.odd{
+  background-color: #EDEDED;
+}
+.cart-view-table-front button, .cart-view-table-front .button, .cart-view-table-back button, .cart-view-table-back .button{
+  margin: 10px 1px;
+  float: right;
+}
+
+/*=======END==paypal shopping cart intregration=======*/
